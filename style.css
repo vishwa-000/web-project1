@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #990005;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 20px;
+    background-color: #f4f4f9;
+  }
+  
+  footer {
+    background-color: #992900;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .welcome, .resume, .biodata {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home-image {
+    display: block; 
+    margin: 10px auto; 
+    max-width: 50%; 
+    height:auto; 
+    border-radius: 10px; 
+    background-color: #f0f0f0; 
+    border: 1px solid #ddd;
+  }
+  
+  
+  h1 {
+    color: #059900;
+  }
+  
+  .timeline, .education, .biodata-card {
+    background: #e8f4ff;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+  }
+  
+  .timeline-item {
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    color: #444;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
